@@ -43,7 +43,7 @@ if uploaded_file is not None:
         document_text = extract_text_from_docx(tmp_path)
 
     # Load standards
-    term_sheet_file = "standards.csv"
+    term_sheet_file = "NDA_Term_Sheet.csv"
     term_sheet_df = pd.read_csv(term_sheet_file)
 
     # Compare with LegalBERT
